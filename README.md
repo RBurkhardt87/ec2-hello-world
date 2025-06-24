@@ -17,6 +17,17 @@ This is a simple HTML "Hello World" page I created to practice launching and con
 - Visual Studio Code (local)
 - Git & GitHub
 
+
+## Deployment and Updating
+
+- I deployed this page on a Windows EC2 instance using IIS (Internet Information Services).
+- I cloned the project from GitHub directly onto the EC2 instance using Git.
+- To update the site, 
+        1. I push changes from my local machine to GitHub
+        2. Connect to the EC2 instance via Remote Desktop
+        3. Run "git pull" to sync the latest code.
+
+
 ## Next Steps
 
 - Try uploading more complex sites
